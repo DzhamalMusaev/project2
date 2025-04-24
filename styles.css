@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 320px;
+    height: 1024px;
+    box-shadow: -2px 0 70px 0;
+    overflow: hidden;
+
+}
+
+.card {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    top: 23px;
+    left: 24px;
+    justify-content: center;
+    overflow: hidden;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #FF3E79;
+}
+
+.close {
+    width: 16px;
+}
+
+.logo {
+    position: relative;
+    left: 80.73px;
+    top: 18.73px;
+}
+
+
+.card2 {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    top: 23px;
+    left: 256px;
+    justify-content: center;
+    overflow: hidden;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #FF3E79;
+}
+
+
+.text {
+    display: grid;
+    gap: 32px;
+    position: relative;
+    top: 50px;
+    left: 24px;
+    font-family: TT;
+}
+
+.linia {
+    position: absolute;
+    width: 4px;
+    height: 32px;
+    background-color: #41F6D7;
+    border-radius: 10px;
+    left: -1.5px;
+    top: 100px;
+}
+
+
+.card3 {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    top: 804px;
+    left: 24px;
+    justify-content: center;
+    overflow: hidden;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #FF3E79;
+}
+
+.card4 {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    top: 804px;
+    left: 80px;
+    justify-content: center;
+    overflow: hidden;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #FF3E79;
+}
+
+
+.card5 {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    top: 804px;
+    left: 136px;
+    justify-content: center;
+    overflow: hidden;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #FF3E79;
+}
+
+.contacts {
+    display: grid;
+    position: absolute;
+    top: 860px;
+    left: 24px;
+    gap: 12px;
+}
+
+.mail {
+    font-family: TT;
+    font-size: 16px;
+}
+
+.number {
+    font-size: 24px;
+    font-family: TTbold;
+    text-decoration: none;
+    color: black;
+}
+
+.language {
+    display: flex;
+    position: absolute;
+    top: 968px;
+    left: 24px;
+    gap: 7px;
+    font-family: TT;
+
+}
+
+.ru {
+    color: #7E7E82;
+}
+
+.remont {
+    width: 188px;
+    transition-duration: 0.6s;
+    text-decoration: none;
+    color: #1B1C21;
+}
+
+
+.remont:hover {
+    opacity: 0.6;
+
+}
+
+.uslugi {
+    width: 188px;
+    transition-duration: 0.6s;
+    text-decoration: none;
+    color: #1B1C21;
+}
+
+
+.uslugi:hover {
+    opacity: 0.6;
+
+}
+
+.clients {
+    width: 250px;
+    transition-duration: 0.6s;
+    text-decoration: none;
+    color: #1B1C21;
+}
+
+
+.clients:hover {
+    opacity: 0.6;
+
+}
+
+.tehnika {
+    width: 250px;
+    transition-duration: 0.6s;
+    text-decoration: none;
+    color: #1B1C21;
+}
+
+
+.tehnika:hover {
+    opacity: 0.6;
+
+}
+
+.partners {
+    width: 250px;
+    transition-duration: 0.6s;
+    text-decoration: none;
+    color: #1B1C21;
+}
+
+
+.partners:hover {
+    opacity: 0.6;
+
+}
+
+
+
+
+.proizvod {
+    width: 250px;
+    transition-duration: 0.6s;
+    text-decoration: none;
+    color: #1B1C21;
+}
+
+
+.proizvod:hover {
+    opacity: 0.6;
+
+}
+
+
+.We {
+    width: 250px;
+    transition-duration: 0.6s;
+    text-decoration: none;
+    color: #1B1C21;
+}
+
+
+.We:hover {
+    opacity: 0.6;
+
+}
+
+.contact {
+    width: 250px;
+    transition-duration: 0.6s;
+    text-decoration: none;
+    color: #1B1C21;
+}
+
+
+.contact:hover {
+    opacity: 0.6;
+
+}
+
+
+
+@font-face {
+    font-family: TT;
+    src: url(fonts/TTLakes-Medium.ttf);
+}
+
+@font-face {
+    font-family: TTbold;
+    src: url(fonts/TTLakes-DemiBold.ttf);
+}
